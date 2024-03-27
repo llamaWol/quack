@@ -1,48 +1,4 @@
-<style>
-body {
-    color: #f7e0b2;
-    background-color: #0f0d0f;
-    font-family: "JetBrains Mono";
-    font-size: 0.75em;
-}
-face {
-    font-size:2.5em;
-    color: #e37f8f;
-}
-h3 {
-    color: #d01f6c;
-}
-a {
-    text-decoration: none;
-    color: #2da1c4;
-}
-sup, sub, note {
-    color: #b5a9a3;
-}
-ul, ol {
-    list-style: none !important;
-    counter-reset: cnt;
-}
-ul > li::before {
-    content: "~"; 
-    color: #f79831;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
-ol > li {
-    counter-increment: cnt;
-}
-ol > li::before {
-    content: counter(cnt) "…";
-    color: #b5a9a3;
-    display: inline-block; 
-    width: 2em;
-    margin-left: -2em;
-}
-</style>
-
-<face> ⊙.⊙ </face>
+<h1> ⊙.⊙ </h1>
 
 ### Features
 
